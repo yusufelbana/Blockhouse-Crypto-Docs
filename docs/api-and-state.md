@@ -37,7 +37,7 @@ const getCoinData = async() => {
 
 export default getCoinData
 ```
-The "simple" option had a low number of permitted requests and did not include images, so I opted to use the "Coins" endpoint (Requires API key).
+The "simple" option did not include images, so I opted to use the "Coins" endpoint (Requires API key after certain number of requests).
 
 ## State Management
 
